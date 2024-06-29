@@ -1,7 +1,15 @@
+import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
-import 'package:odoo_hakathon/screens/homescreen.dart';
+import 'package:odoo_hakathon/screens/admin/course_add_screen.dart';
+import 'package:odoo_hakathon/screens/bedroom_list.dart';
+import 'package:odoo_hakathon/screens/home_screen.dart';
+import 'package:odoo_hakathon/screens/rent_screen.dart';
 
-void main() {
+void main() async{
+
+  WidgetsFlutterBinding.ensureInitialized();
+  await Firebase.initializeApp();
+
   runApp(const MyApp());
 }
 
@@ -14,10 +22,10 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Flutter Demo',
       theme: ThemeData(
-        colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
+        colorScheme: ColorScheme.fromSeed(seedColor: Color(0xff079dab)),
         useMaterial3: true,
       ),
-      home: const HomeScreen(),
+      home: RentScreen(),
     );
   }
 }

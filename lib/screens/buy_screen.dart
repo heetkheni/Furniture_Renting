@@ -10,6 +10,9 @@ class BuyScreen extends StatefulWidget {
 class _BuyScreenState extends State<BuyScreen> {
   @override
   Widget build(BuildContext context) {
-    return Scaffold();
+    return Scaffold(
+      appBar: AppBar(backgroundColor: Color(0xff079dab),
+        title: Text("Cart Screen", style: TextStyle(color: Colors.white)),)
+    );
   }
 }

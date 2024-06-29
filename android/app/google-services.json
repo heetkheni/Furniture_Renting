@@ -12,7 +12,20 @@
           "package_name": "com.example.odoo_hakathon"
         }
       },
-      "oauth_client": [],
+      "oauth_client": [
+        {
+          "client_id": "500843388707-9eul0d6012i3qmvpbp4fgjl111qud5s3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.odoo_hakathon",
+            "certificate_hash": "df5fe8fc88b2ff44c2126f28578b2a918c921d1d"
+          }
+        },
+        {
+          "client_id": "500843388707-3qbfq293sm6fc1aq0he5dvt06k9q12hk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
       "api_key": [
         {
           "current_key": "AIzaSyAKrwwX-f88qquZW4BOUF50EAubIIV9b4w"
@@ -20,7 +33,12 @@
       ],
       "services": {
         "appinvite_service": {
-          "other_platform_oauth_client": []
+          "other_platform_oauth_client": [
+            {
+              "client_id": "500843388707-3qbfq293sm6fc1aq0he5dvt06k9q12hk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
         }
       }
     }
